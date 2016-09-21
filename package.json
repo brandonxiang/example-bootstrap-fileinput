@@ -1,24 +1,27 @@
 {
-    "name": "example-bootstrap-fileinput",
-    "version": "1.0.0",
-    "description": "An example for bootstrap-fileinput",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "browser-sync start --server --files \"**/*.html,**/*.css,**/*.js\""
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/brandonxiang/example-bootstrap-fileinput.git"
-    },
-    "keywords": [
-        "bootstrap",
-        "file-input"
-    ],
-    "author": "brandonxiang",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/brandonxiang/example-bootstrap-fileinput/issues"
-    },
-    "homepage": "https://github.com/brandonxiang/example-bootstrap-fileinput#readme"
+  "name": "example-bootstrap-fileinput",
+  "version": "1.0.0",
+  "description": "An example for bootstrap-fileinput",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browser-sync start --server --files \"**/*.html,**/*.css,**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonxiang/example-bootstrap-fileinput.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "file-input"
+  ],
+  "author": "brandonxiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonxiang/example-bootstrap-fileinput/issues"
+  },
+  "homepage": "https://github.com/brandonxiang/example-bootstrap-fileinput#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
