@@ -18,17 +18,19 @@
     <label class="control-label">Planets and Satellites</label>
     <input id="input-24" name="input24[]" type="file" multiple class="file-loading">
     <script>
+        var images = [
+            'img/Moon.jpg',
+            'img/Earth.jpg'
+        ];
+
         $("#input-24").fileinput({
             previewFileType: 'any',
-            initialPreview: [
-                'http://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/631px-FullMoon2010.jpg',
-                'http://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Earth_Eastern_Hemisphere.jpg/600px-Earth_Eastern_Hemisphere.jpg'
-            ],
+            initialPreview: images,
             initialPreviewAsData: true,
             initialPreviewConfig: [{
-                caption: "Moon1.jpg",
+                caption: "Moon.jpg",
                 size: 12000,
-                width: "124px",
+                width: "120px",
                 key: 1
             }, {
                 caption: "Earth.jpg",

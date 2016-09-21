@@ -5,6 +5,7 @@ var map = { "1": { id: 1, name: "test" }, "2": { id: 2, name: "test" } }
 var app = express();
 
 app.use('/node_modules', express.static('node_modules'));
+app.use('/img', express.static('img'));
 
 app.get('/', function(req, res) {
     res.sendfile('index.html');
